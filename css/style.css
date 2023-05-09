@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: #2C3E50;
+}
+
+h6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.nav-border{
+    border: 1px solid #FFFFFF;
+}
+
+.nav-filter{
+    filter: invert(100%);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.white-text{
+    color: #FFFFFF;
+}
+
+/* media query */
+
+@media screen and (min-width: 720px) {
+   
+    .header-container{
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+}
